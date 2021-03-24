@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+}
+
+header {
+  font-size: 35px;
+}
+
+#navbar {
+  float: left;
+  width: 30%;
+  border-right: 2px solid grey;
+}
+
+#header-img {
+  width: 100%;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+ul li.nav-links {
+  border-bottom: 2px solid grey;
+}
+
+li a {
+  display: block;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+#main-doc {
+  float: right;
+  width: 65%;
+}
+
+code {
+  background-color: #e7e4e4;
+}
