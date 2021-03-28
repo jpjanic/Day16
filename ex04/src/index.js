@@ -11,8 +11,7 @@ class Pets {
 }
 class Dog extends Pets {
   constructor(name, legs) {
-      super(name);
-      this.legs = legs;
+      super(name, legs);
   }
   bark() {
       let dogSay = this.name + " says WUF-WUF";
